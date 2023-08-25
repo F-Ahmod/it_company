@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             
-            <div className='d-flex justify-content-center'>
+            {/* <div className='d-flex justify-content-center'>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">Navbar</a>
@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                 </nav>
                 
-            </div>
+            </div> */}
         </div>
     );
 };

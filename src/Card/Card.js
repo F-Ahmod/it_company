@@ -1,38 +1,61 @@
 import React from 'react';
-//hello
+import "./Card.css";
+
+
 const Card = () => {
-    return (
-        <div className="card-group">
-  <div className="card">
-    <img src="..." className="card-img-top" alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  
-  <div className="card">
-    <img src="..." className="card-img-top" alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-    
-  </div>
+  return (
+    <div>
 
-  <div className="card">
-    <img src="..." className="card-img-top" alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <body class='bbody'>
+        <div class="ccontainer">
+          <div class="ccard">
 
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <div class="card-item">
+              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" alt="" />
+              <h3>Design</h3>
+            </div>
+            <div class="card-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
+                voluptatibus maiores sit, laborum delectus voluptatum velit modi suscipit eum maxime corporis
+                doloribus placeat omnis neque?</p>
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+          <div class="ccard">
+
+            <div class="card-item">
+              <img src="https://raw.githubusercontent.com/Jhonierpc/Web_Practice.io/master/CSS%20Card%20Hover%20Effects/img/code_128.png" alt="" />
+              <h3>Code</h3>
+            </div>
+            <div class="card-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
+                voluptatibus maiores sit, laborum delectus voluptatum velit modi suscipit eum maxime corporis
+                doloribus placeat omnis neque?</p>
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+          <div class="ccard">
+
+            <div class="card-item">
+              <img src="https://raw.githubusercontent.com/Jhonierpc/Web_Practice.io/master/CSS%20Card%20Hover%20Effects/img/launch_128.png" alt="" />
+              <h3>Lunch</h3>
+            </div>
+            <div class="card-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
+                voluptatibus maiores sit, laborum delectus voluptatum velit modi suscipit eum maxime corporis
+                doloribus placeat omnis neque?</p>
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+        </div>
+
+      </body>
+
     </div>
-  </div>
-</div>
-    );
+  );
 };
 
 export default Card;
