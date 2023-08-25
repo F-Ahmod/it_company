@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Card.css";
-
+import image1 from "../Images/image1.jpeg";
+import image2 from "../Images/image2.jpeg";
+import image3 from "../Images/image2.jpeg";
 
 const Card = () => {
   return (
@@ -11,8 +13,8 @@ const Card = () => {
           <div class="ccard">
 
             <div class="card-item">
-              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" alt="" />
-              <h3>Design</h3>
+              <img src={image1}alt="" />
+              <h3>QA Tasting</h3>
             </div>
             <div class="card-text">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
@@ -25,8 +27,8 @@ const Card = () => {
           <div class="ccard">
 
             <div class="card-item">
-              <img src="https://raw.githubusercontent.com/Jhonierpc/Web_Practice.io/master/CSS%20Card%20Hover%20Effects/img/code_128.png" alt="" />
-              <h3>Code</h3>
+              <img src={image2} alt="" />
+              <h3>Web Developr</h3>
             </div>
             <div class="card-text">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
@@ -39,8 +41,8 @@ const Card = () => {
           <div class="ccard">
 
             <div class="card-item">
-              <img src="https://raw.githubusercontent.com/Jhonierpc/Web_Practice.io/master/CSS%20Card%20Hover%20Effects/img/launch_128.png" alt="" />
-              <h3>Lunch</h3>
+              <img src={image3} alt="" />
+              <h3>seccority</h3>
             </div>
             <div class="card-text">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni blanditiis, mollitia hic soluta
